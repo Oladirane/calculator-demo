@@ -1,0 +1,15 @@
+html{
+  background-color: rgb(71, 70, 70);
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 55px;
+}
+
+li{
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
