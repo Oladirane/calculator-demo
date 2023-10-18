@@ -141,22 +141,5 @@ oladir.addEventListener("click", () => {
 });
 
 tosin.addEventListener("click", () => {
-  diran.textContent = '';
+  diran.textContent = "";
 });
-
-// let displayedNumber = null;
-
-// ola2.addEventListener("click", () => {
-//   displayedNumber = 2;
-//   diran.textContent = displayedNumber;
-// });
-
-// ola.addEventListener("click", () => {
-//   displayedNumber = 1;
-//   diran.textContent = displayedNumber;
-// });
-
-// ola3.addEventListener("click", () => {
-//   displayedNumber = 3;
-//   diran.textContent = displayedNumber;
-// });
