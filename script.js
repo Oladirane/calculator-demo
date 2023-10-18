@@ -141,5 +141,5 @@ oladir.addEventListener("click", () => {
 });
 
 tosin.addEventListener("click", () => {
-  diran.textContent = "";
+  diran.textContent = '';
 });
