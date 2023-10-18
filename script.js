@@ -21,6 +21,30 @@ ola2.addEventListener("click", () => {
   }
 });
 
+ola3.addEventListener("click", () => {
+  for (let i = 0; i < '1'; i++) {
+    const numberElement = document.createElement("span");
+    numberElement.textContent = `${'3'} `;
+    diran.appendChild(numberElement);
+  }
+});
+
+ola4.addEventListener("click", () => {
+  for (let i = 0; i < '1'; i++) {
+    const numberElement = document.createElement("span");
+    numberElement.textContent = `${'4'} `;
+    diran.appendChild(numberElement);
+  }
+});
+
+ola5.addEventListener("click", () => {
+  for (let i = 0; i < '1'; i++) {
+    const numberElement = document.createElement("span");
+    numberElement.textContent = `${'5'} `;
+    diran.appendChild(numberElement);
+  }
+});
+
 // let displayedNumber = null;
 
 // ola2.addEventListener("click", () => {
