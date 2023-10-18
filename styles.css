@@ -1,28 +1,30 @@
-body{
+body {
   background-color: rgb(71, 70, 70);
+  font-family: roboto;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   gap: 55px;
   flex-wrap: wrap;
 }
 
-li{
+li {
   background-color: white;
   padding: 0px 10px;
   border-radius: 50%;
   font-size: 40px;
   font-weight: 700;
   cursor: pointer;
-
 }
 
-.input{
+.input {
   background-color: white;
   width: 95%;
   height: 50px;
   padding: 10px;
   margin: 15px auto;
+  font-size: 25px;
+  font-weight: bold;
 }
