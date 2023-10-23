@@ -116,6 +116,14 @@ ola0.addEventListener("click", () => {
   }
 });
 
+point.addEventListener("click", () => {
+  for (let i = 0; i < "1"; i++) {
+    const numberElement = document.createElement("span");
+    numberElement.textContent = ".";
+    diran.appendChild(numberElement);
+  }
+});
+
 olaa.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");

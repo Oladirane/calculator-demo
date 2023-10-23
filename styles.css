@@ -8,7 +8,7 @@ ul {
   display: grid;
   gap: 50px;
   margin-top: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 li {
