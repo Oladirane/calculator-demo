@@ -119,7 +119,7 @@ olaa.addEventListener("click", () => {
 olad.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${" -"} `;
+    numberElement.textContent = `${"("} `;
     diran.appendChild(numberElement);
   }
 });
@@ -127,7 +127,7 @@ olad.addEventListener("click", () => {
 oladi.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${" /"} `;
+    numberElement.textContent = `${")"} `;
     diran.appendChild(numberElement);
   }
 });
