@@ -20,8 +20,10 @@ const emmy = document.querySelector(".result");
 oladiran.addEventListener("click", () => {
   const expressionText = diran.textContent;
 
-  const result = eval(expressionText);
-  diran.textContent = result;
+  try {
+  } catch (error) {
+    diran.textContent = "Invalid expression";
+  }
 });
 
 ola.addEventListener("click", () => {
