@@ -14,6 +14,7 @@ const oladi = document.getElementById("/");
 const oladir = document.getElementById("*");
 const tosin = document.getElementById("c");
 const oladiran = document.getElementById("=");
+const abi = document.getElementById("dd");
 const diran = document.querySelector(".input");
 const emmy = document.querySelector(".result");
 
