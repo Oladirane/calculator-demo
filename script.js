@@ -31,6 +31,8 @@ oladiran.addEventListener("click", () => {
 
 abi.addEventListener("click", () => {
   let numbers = diran.textContent;
+  numbers = numbers.slice(0, -1);
+  diran.textContent = numbers;
 });
 
 ola.addEventListener("click", () => {
