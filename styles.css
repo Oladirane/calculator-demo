@@ -6,8 +6,10 @@ body {
 ul {
   list-style: none;
   display: flex;
-  gap: 55px;
+  gap: 60px;
+  /* justify-content: center; */
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 li {
