@@ -29,6 +29,10 @@ oladiran.addEventListener("click", () => {
   }
 });
 
+abi.addEventListener("click", () => {
+  let numbers = diran.textContent;
+});
+
 ola.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
