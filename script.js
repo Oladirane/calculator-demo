@@ -15,6 +15,7 @@ const oladir = document.getElementById("*");
 const tosin = document.getElementById("c");
 const oladiran = document.getElementById("=");
 const diran = document.querySelector(".input");
+const diran2 = document.querySelector(".output");
 const emmy = document.querySelector(".result");
 
 oladiran.addEventListener("click", () => {
@@ -22,9 +23,9 @@ oladiran.addEventListener("click", () => {
 
   try {
     const result = eval(expressionText);
-    diran.textContent = result;
+    diran2.textContent = result;
   } catch (error) {
-    diran.textContent = "Invalid expression";
+    diran2.textContent = "Invalid expression";
   }
 });
 
