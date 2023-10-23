@@ -31,7 +31,7 @@ oladiran.addEventListener("click", () => {
 ola.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"1"} `;
+    numberElement.textContent = 1;
     diran.appendChild(numberElement);
   }
 });
@@ -39,7 +39,7 @@ ola.addEventListener("click", () => {
 ola2.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"2"} `;
+    numberElement.textContent = 2;
     diran.appendChild(numberElement);
   }
 });
@@ -47,7 +47,7 @@ ola2.addEventListener("click", () => {
 ola3.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"3"} `;
+    numberElement.textContent = 3;
     diran.appendChild(numberElement);
   }
 });
@@ -55,7 +55,7 @@ ola3.addEventListener("click", () => {
 ola4.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"4"} `;
+    numberElement.textContent = 4;
     diran.appendChild(numberElement);
   }
 });
@@ -63,7 +63,7 @@ ola4.addEventListener("click", () => {
 ola5.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"5"} `;
+    numberElement.textContent = 5;
     diran.appendChild(numberElement);
   }
 });
@@ -71,7 +71,7 @@ ola5.addEventListener("click", () => {
 ola6.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"6"} `;
+    numberElement.textContent = 6;
     diran.appendChild(numberElement);
   }
 });
@@ -79,7 +79,7 @@ ola6.addEventListener("click", () => {
 ola7.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"7"} `;
+    numberElement.textContent = 7;
     diran.appendChild(numberElement);
   }
 });
@@ -87,7 +87,7 @@ ola7.addEventListener("click", () => {
 ola8.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"8"} `;
+    numberElement.textContent = 8;
     diran.appendChild(numberElement);
   }
 });
@@ -95,7 +95,7 @@ ola8.addEventListener("click", () => {
 ola9.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"9"} `;
+    numberElement.textContent = 9;
     diran.appendChild(numberElement);
   }
 });
@@ -103,7 +103,7 @@ ola9.addEventListener("click", () => {
 ola0.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"0"} `;
+    numberElement.textContent = 0;
     diran.appendChild(numberElement);
   }
 });
@@ -111,7 +111,7 @@ ola0.addEventListener("click", () => {
 olaa.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"+"} `;
+    numberElement.textContent = `${" +"} `;
     diran.appendChild(numberElement);
   }
 });
@@ -119,7 +119,7 @@ olaa.addEventListener("click", () => {
 olad.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"-"} `;
+    numberElement.textContent = `${" -"} `;
     diran.appendChild(numberElement);
   }
 });
@@ -127,7 +127,7 @@ olad.addEventListener("click", () => {
 oladi.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"/"} `;
+    numberElement.textContent = `${" /"} `;
     diran.appendChild(numberElement);
   }
 });
@@ -135,7 +135,7 @@ oladi.addEventListener("click", () => {
 oladir.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
-    numberElement.textContent = `${"*"} `;
+    numberElement.textContent = `${" *"} `;
     diran.appendChild(numberElement);
   }
 });
