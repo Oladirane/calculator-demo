@@ -8,6 +8,7 @@ const ola7 = document.getElementById("7");
 const ola8 = document.getElementById("8");
 const ola9 = document.getElementById("9");
 const ola0 = document.getElementById("0");
+const point = document.getElementById("00");
 const olaa = document.getElementById("+");
 const olad = document.getElementById("-");
 const oladi = document.getElementById("/");

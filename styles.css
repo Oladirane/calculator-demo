@@ -5,10 +5,10 @@ body {
 
 ul {
   list-style: none;
-  display: flex;
+  display: grid;
   gap: 50px;
-  flex-wrap: wrap;
   margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 li {
