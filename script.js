@@ -21,6 +21,8 @@ oladiran.addEventListener("click", () => {
   const expressionText = diran.textContent;
 
   try {
+    const result = eval(expressionText);
+    diran.textContent = result;
   } catch (error) {
     diran.textContent = "Invalid expression";
   }
