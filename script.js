@@ -23,6 +23,7 @@ oladiran.addEventListener("click", () => {
   try {
     const result = eval(expressionText);
     diran.textContent = result;
+    diran.classList.te
   } catch (error) {
     diran.textContent = "Invalid expression";
   }
