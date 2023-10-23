@@ -8,7 +8,6 @@ const ola7 = document.getElementById("7");
 const ola8 = document.getElementById("8");
 const ola9 = document.getElementById("9");
 const ola0 = document.getElementById("0");
-const point = document.getElementById("00");
 const olaa = document.getElementById("+");
 const olad = document.getElementById("-");
 const oladi = document.getElementById("/");
@@ -112,14 +111,6 @@ ola0.addEventListener("click", () => {
   for (let i = 0; i < "1"; i++) {
     const numberElement = document.createElement("span");
     numberElement.textContent = 0;
-    diran.appendChild(numberElement);
-  }
-});
-
-point.addEventListener("click", () => {
-  for (let i = 0; i < "1"; i++) {
-    const numberElement = document.createElement("span");
-    numberElement.textContent = ".";
     diran.appendChild(numberElement);
   }
 });
